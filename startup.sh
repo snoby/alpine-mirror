@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Starting up lighthttpd"
-lighttpd -f /etc/lighttpd/lighttpd.conf -D
+lighttpd -f /etc/lighttpd/lighttpd.conf
 
 echo "Startup up rsyncd"
 rsync --daemon
